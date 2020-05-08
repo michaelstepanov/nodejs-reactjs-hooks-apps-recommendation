@@ -1,0 +1,56 @@
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form-group.required .control-label:after {
+  content:"*";
+  color:red;
+}
+
+.react-datepicker-container .react-datepicker-wrapper {
+  display: block;
+}
+
+.has-error > .react-select > div:first-child,
+.has-error input
+{
+  border-color: #dc3545;
+}
+
+.has-error label
+{
+  color: #dc3545!important;
+}
+
+.has-error .validation-message
+{
+  display: block;
+  color: #dc3545!important;
+}
+
+.validation-message {
+  display: none;
+}
+
+.app-icon {
+  width: 180px;
+}
+
+ul li {
+  cursor: pointer;
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.app-icon {
+  padding-left: 1.25rem;
+  padding-top: 1.25rem;
+}
